@@ -1,0 +1,12 @@
+﻿{
+  "Version": "13.1.0",
+  "Name": "Custom Uploader",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://example.com/upload.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "secret": "fail"
+  },
+  "FileFormName": "sharex"
+}
